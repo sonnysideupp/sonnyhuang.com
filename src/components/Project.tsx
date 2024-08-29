@@ -1,5 +1,4 @@
 import { Project } from "../types"
-import { Link } from "react-router-dom"
 import ExternalLinkIcon from '../assets/externalLink'
 import StarIcon from "../assets/starIcon"
 interface ProjectProps {

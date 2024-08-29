@@ -9,7 +9,7 @@ interface LayoutProps{
 	children: React.ReactNode 
 }
 const Layout = ({ children}: LayoutProps) => {
-  const [theme, setTheme] = useState<Theme>('dark')
+  const [theme, setTheme] = useState<Theme>('light')
 
 
   const addThemeClass = (theme: Theme) => {

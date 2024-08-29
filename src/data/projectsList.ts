@@ -19,6 +19,16 @@ export const projectsList: Project[] = [
 	  highlight: true,
 	},
 	{
+	id: "2",	
+	  name: 'MinMax: Connect 4',
+	  date: '2024',
+	  slug: 'Connect4MinMax',
+	  tagline: 'Create an AI agent to player Connect 4 using the MinMax algorithm',
+	  url: '',
+	  writeup: '',
+	  highlight: true,
+	},
+	{
 		id: "3",	
 	  name: 'Portfolio Optimization',
 	  date: '2024',
