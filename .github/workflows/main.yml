@@ -31,4 +31,4 @@ jobs:
           aws-region: us-east-2
 
       - name: Deploy to AWS S3
-        run: aws s3 sync build s3://www.sonnyhuang.com --delete
+        run: aws s3 sync dist s3://www.sonnyhuang.com --delete
