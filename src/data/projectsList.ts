@@ -33,7 +33,7 @@ export const projectsList: Project[] = [
 	  name: 'Portfolio Optimization',
 	  date: '2024',
 	  slug: 'MarkowitzPortfolioOptimization',
-	  tagline: 'Markowitz Mean-Variance portfolio optimzation with backtesting on historal equity data',
+	  tagline: 'Markowitz Mean-Variance portfolio optimzation with backtesting on historical equity data',
 	  url: '',
 	  writeup: '',
 	  highlight: true,
