@@ -6,7 +6,7 @@ const Education = () => {
 
 
 	return (<>
-		<h2 className='font-sans font-semibold mt-10 text-3xl border-b border-gray-300 pb-1 dark:text-white'>
+		<h2 className='font-sans font-semibold mt-10 text-3xl border-b border-gray-300 pb-1 dark:text-white text-black'>
 
 			Education
 			<a href="#education">
@@ -14,12 +14,12 @@ const Education = () => {
 			</a>
 		</h2>
 
-		<div className="text-2xl font-sans font-medium my-4 dark:text-white ">
+		<div className="text-2xl font-sans font-medium my-4 dark:text-white text-black">
 			Bachelor of Science in Engineering
 		</div>
 
 
-		<span className="font-semibold  font-sans text-xl dark:text-lightGray">
+		<span className="font-semibold  font-sans text-xl dark:text-lightGray text-black">
 
 			Princeton University — <span className="font-sans font-medium italic">
 				2016 - 2020

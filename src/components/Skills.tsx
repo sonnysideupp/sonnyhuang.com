@@ -4,7 +4,7 @@
 const Skills = () => {
 
 	return <>
-		<h2 className='font-sans font-semibold mt-10 text-3xl border-b border-gray-300 pb-1 dark:text-white'>
+		<h2 className='font-sans font-semibold mt-10 text-3xl border-b border-gray-300 pb-1 dark:text-white text-black'>
 
 			Skills
 			<a href="#skills">

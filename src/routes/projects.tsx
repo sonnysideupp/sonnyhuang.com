@@ -31,7 +31,7 @@ export function Component() {
       <section className="flex flex-row items-center justify-between w-full py-12 px-4 md:px-0">
         <Hero title="Projects" >
           <br />
-          <p className="font-medium text-lg dark:text-gray-400">
+          <p className="font-medium text-lg dark:text-gray-400 text-black">
           Open-source projects I've made over the years, including this website, reinforcement learning agents, and quantitative finance projects.
             </p>
        

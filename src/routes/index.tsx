@@ -14,11 +14,11 @@ export function Component() {
           <section className="flex flex-row items-center justify-between w-full pt-12 px-4 md:px-0">
             <Hero title="Hey, I'm Sonny" >
               <br />
-              <p className="font-medium text-lg dark:text-gray-400">
+              <p className="font-medium text-lg dark:text-gray-400 text-black">
                 I'm a full-stack software engineer with a special interest for machine learning, data science, statistics and quantitative finance.
               </p>
               <br />
-              <p className="font-medium text-lg dark:text-gray-400">
+              <p className="font-medium text-lg dark:text-gray-400 text-black">
                 On this site, you can check out all the{' '}
                 <Link to="/projects" className="dark:text-lightYellow">technical projects</Link> I've done, or learn more{' '}
                 <Link to="/resume" className="dark:text-lightYellow">about me</Link>.

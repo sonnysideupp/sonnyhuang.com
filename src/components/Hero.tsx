@@ -25,8 +25,8 @@ const Hero = ({
           {subTitle}
         </div>
       )}
-      {title && <h1 className='font-sans font-semibold dark:text-white'>{title}</h1>}
-      {description && <p className="hero-description dark:text-gray-500">{description}</p>}
+      {title && <h1 className='font-sans font-semibold dark:text-white text-black'>{title}</h1>}
+      {description && <p className="hero-description dark:text-gray-500 text-black">{description}</p>}
 
       {children && children}
     </header>
