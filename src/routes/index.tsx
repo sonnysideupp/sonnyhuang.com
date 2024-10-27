@@ -15,7 +15,7 @@ export function Component() {
             <Hero title="Hey, I'm Sonny" >
               <br />
               <p className="font-medium text-lg dark:text-gray-400 text-black">
-                I'm a full-stack software engineer with a special interest for machine learning, data science, statistics and quantitative finance.
+                I'm a full-stack software engineer with special interests for machine learning, data science, statistics and quantitative finance.
               </p>
               <br />
               <p className="font-medium text-lg dark:text-gray-400 text-black">

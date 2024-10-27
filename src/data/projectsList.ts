@@ -1,6 +1,14 @@
 import { Project } from "../types"
 export const projectsList: Project[] = [
 	{
+		id: "0",	
+		name: 'Adaptive RAG',
+		date: '2024',
+		slug: 'Adaptive-RAG',
+		tagline: "Adaptive RAG for analyzing and answering user's questions about Lyft's 10-K document",
+		highlight: true
+	  },
+	{
 	  id: "0",	
 	  name: 'sonnyhuang.com',
 	  date: '2024',
@@ -15,7 +23,7 @@ export const projectsList: Project[] = [
 	  slug: 'RL-MDP-TicTacToe',
 	  tagline: 'Trained a Markov Decision Process based agent to play Tic Tac Toe',
 	  url: '',
-	  writeup: '/building-takenote',
+	  writeup: '',
 	  highlight: true,
 	},
 	{
