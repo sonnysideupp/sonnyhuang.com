@@ -9,15 +9,15 @@ export const projectsList: Project[] = [
 		highlight: true
 	  },
 	{
-	  id: "0",	
+	  id: "1",	
 	  name: 'sonnyhuang.com',
 	  date: '2024',
 	  slug: 'sonnyhuang.com',
-	  tagline: 'The source of this website.',
+	  tagline: 'The source of this website',
 	  highlight: true
 	},
 	{
-		id: "1",	
+		id: "2",	
 	  name: 'RL: Tic Tac Toe',
 	  date: '2024',
 	  slug: 'RL-MDP-TicTacToe',
@@ -27,7 +27,7 @@ export const projectsList: Project[] = [
 	  highlight: true,
 	},
 	{
-	id: "2",	
+	id: "3",	
 	  name: 'MinMax: Connect 4',
 	  date: '2024',
 	  slug: 'Connect4MinMax',
@@ -37,7 +37,7 @@ export const projectsList: Project[] = [
 	  highlight: true,
 	},
 	{
-		id: "3",	
+		id: "4",	
 	  name: 'Portfolio Optimization',
 	  date: '2024',
 	  slug: 'MarkowitzPortfolioOptimization',
