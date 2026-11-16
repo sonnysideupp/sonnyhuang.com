@@ -1,6 +1,6 @@
 import { Project } from "../types"
 
-// Newest first. `highlight` puts a project on the home page.
+// Newest first. `highlight` puts a project on the home page (the first 6 highlighted are shown).
 export const projectsList: Project[] = [
   {
     id: "nfl-sql",
@@ -42,7 +42,7 @@ export const projectsList: Project[] = [
     date: "2024",
     slug: "Recession-Forecast",
     tagline: "Regime classification forecasting using leading macroeconomic indicators and ML algorithms.",
-    highlight: false,
+    highlight: true,
   },
   {
     id: "website",
@@ -58,7 +58,7 @@ export const projectsList: Project[] = [
     date: "2024",
     slug: "RL-MDP-TicTacToe",
     tagline: "Trained a Markov Decision Process based agent to play Tic Tac Toe.",
-    highlight: false,
+    highlight: true,
   },
   {
     id: "connect4",
@@ -74,6 +74,6 @@ export const projectsList: Project[] = [
     date: "2024",
     slug: "MarkowitzPortfolioOptimization",
     tagline: "Markowitz mean-variance portfolio optimization with backtesting on historical equity data.",
-    highlight: false,
+    highlight: true,
   },
 ]

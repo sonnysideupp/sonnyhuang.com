@@ -39,6 +39,7 @@ export function Component() {
             <div className="grid md:grid-cols-3 grid-cols-1 gap-x-3 mt-10 gap-y-3">
               {projectsList
                 .filter((project) => project.highlight)
+                .slice(0, 6)
                 .map((project) => (
                   <ProjectComponent project={project} key={project.id} compact />
                 ))}
