@@ -5,10 +5,7 @@ import { experiences } from "../data/resumeExperiences"
 import Experience from "../components/Experience"
 import Education from "../components/Education"
 
-const contactLinks = [
-  { label: "GitHub", url: "https://github.com/sonnysideupp" },
-  { label: "Hugging Face", url: "https://huggingface.co/sonnyhuang" },
-]
+const contactLinks = [{ label: "GitHub", url: "https://github.com/sonnysideupp" }]
 
 export function Component() {
   return (
