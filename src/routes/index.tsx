@@ -21,18 +21,20 @@ export function Component() {
               </p>
               <br />
               <p className={lead}>
-                At Hall of Fame Bets I lead the AI betting assistant and the eval system that gates every release. On
-                my own time I fine-tune and benchmark open models and build tools for evaluating voice agents.
+                At Hall of Fame Bets I lead the AI betting assistant and the eval system that gates every release. I
+                studied operations research and financial engineering at Princeton, and machine learning, data science,
+                statistics and quantitative finance have been my favorite things to tinker with ever since, which is
+                why my side projects usually involve fine-tuning a model or measuring whether one actually works.
               </p>
               <br />
               <p className={lead}>
-                Check out my{" "}
+                On this site, you can check out all the{" "}
                 <Link to="/projects" className="dark:text-lightYellow">
-                  projects
+                  technical projects
                 </Link>{" "}
-                or my{" "}
+                I've done, or learn more{" "}
                 <Link to="/resume" className="dark:text-lightYellow">
-                  resume
+                  about me
                 </Link>
                 .
               </p>
