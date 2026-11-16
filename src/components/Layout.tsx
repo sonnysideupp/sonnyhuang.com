@@ -6,18 +6,18 @@ import { Theme } from '../types'
 
 
 interface LayoutProps{
-	children: React.ReactNode 
+  children: React.ReactNode 
 }
 const Layout = ({ children}: LayoutProps) => {
   const [theme, setTheme] = useState<Theme>('light')
 
 
   const addThemeClass = (theme: Theme) => {
-	if (theme == "dark"){
-		document.documentElement.classList.add('dark')
-	}else{
-		document.documentElement.classList.remove('dark')
-	}
+  if (theme == "dark"){
+    document.documentElement.classList.add('dark')
+  }else{
+    document.documentElement.classList.remove('dark')
+  }
   }
 
   const onUpdateTheme = useCallback(() => {
@@ -25,7 +25,7 @@ const Layout = ({ children}: LayoutProps) => {
     window.localStorage.setItem('theme', newTheme)
 
     setTheme(newTheme)
-	addThemeClass(newTheme)
+  addThemeClass(newTheme)
 
 
   },[theme])
@@ -37,7 +37,7 @@ const Layout = ({ children}: LayoutProps) => {
 
     if (savedTheme) {
       setTheme(savedTheme)
-	  addThemeClass(savedTheme)
+    addThemeClass(savedTheme)
 
 
     }
