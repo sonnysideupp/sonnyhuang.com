@@ -11,13 +11,13 @@ interface HeadingProps {
 
 const Heading = ({ title, buttonText, description, slug }: HeadingProps) => {
 	return (
-		<h2 className="flex flex-row items-center justify-between my-4">
+		<h2 className="flex flex-row items-center justify-between gap-4 my-4">
 			<div>
-				<div className="text-3xl text-black font-semibold font-sans dark:text-white">{title}</div>
+				<div className="text-2xl md:text-3xl text-black font-semibold font-sans dark:text-white">{title}</div>
 				{description && <div className="description">{description}</div>}
 			</div>
 			{slug && (
-				<Link className="text-black dark:text-gray-300 bg-white dark:border-gray-600 border-gray-400 px-4 py-2 rounded-xl border dark:bg-darkGray" to={slug}>
+				<Link className="shrink-0 text-black dark:text-gray-300 bg-white dark:border-gray-600 border-gray-400 px-4 py-2 rounded-xl border dark:bg-darkGray" to={slug}>
 					{buttonText}
 				</Link>
 			)}

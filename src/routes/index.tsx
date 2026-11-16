@@ -16,8 +16,8 @@ export function Component() {
             <Hero title="Hey, I'm Sonny">
               <br />
               <p className={lead}>
-                I'm an AI engineer with six years of full-stack experience. I build LLM agents end to end, from
-                retrieval and tool calling to evals, guardrails and fine-tuning, and ship them to production.
+                I'm a full-stack software engineer specializing in AI engineering: evals and optimization, RAG, context
+                engineering and model fine-tuning, with a strong background in statistics and machine learning.
               </p>
               <br />
               <p className={lead}>
